@@ -1088,6 +1088,7 @@
             this.Controls.Add(this.metroPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VnExpress";
             this.Load += new System.EventHandler(this.Home_Load);
             this.metroPanel1.ResumeLayout(false);
